@@ -15,10 +15,10 @@ import io.cucumber.junit.CucumberOptions;
 		glue ="stepDefinations",
 		//it will crosscheck weather the corresponding feature file is having corresonding stepdefination or not 
 		//featurefile=stepdefination
-		dryRun=false,//(first Keepit true=to crosschek and run the output once after that crosscheck kep it false to execute  )
-		monochrome=true,//remove unnecessary characters in console window
-		plugin= {"pretty","html:test-output"},//it gives output in console veryclearly
-		tags= {"@sanity","@regression"}//sanith AND regression executed
+		dryRun = false,//(first Keep it true=to cross chek and run the output once after that cross check keep it false to execute  )
+		monochrome = true,//remove unnecessary characters in console window
+		plugin = {"pretty","html:test-output"},//it gives output in console very clearly
+		tags = {"@sanity","@regression"}//sanith AND regression executed
 		//tags= {"@santity,@regression"}//sanity OR regression
 		)
 
